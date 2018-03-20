@@ -1,4 +1,4 @@
-FROM popatry/scala-cuda:sbt-openjdk8-cuda8.0-runtime-ubuntu16.04
+FROM popatry/scala-cuda:sbt-openjdk8-cuda8.0-ubuntu16.04
 
 LABEL maintainer "Yang Bo <atryyang@thoughtworks.com>"
 
