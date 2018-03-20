@@ -3,6 +3,7 @@ FROM popatry/scala-cuda:sbt-openjdk8-cuda8.0-ubuntu16.04
 LABEL maintainer "Yang Bo <atryyang@thoughtworks.com>"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+        ocl-icd-opencl-dev \
         ocl-icd-libopencl1 \
         clinfo && \
     rm -rf /var/lib/apt/lists/*
