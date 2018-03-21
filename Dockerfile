@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-runtime-ubuntu16.04
+FROM nvidia/cuda:8.0-devel-ubuntu16.04
 
 LABEL maintainer "Yang Bo <atryyang@thoughtworks.com>"
 
